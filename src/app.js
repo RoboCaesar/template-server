@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize-css/normalize.css';
+import './styles/styles.scss'
 
 console.log("App is running...");
 
-const appGateway = () => {
+const AppGateway = () => {
   return (
     <div>
       <h1>This is the app.</h1>
@@ -12,4 +14,4 @@ const appGateway = () => {
   );
 };
 
-ReactDOM.render(appGateway, document.getElementById('app'));
+ReactDOM.render(<AppGateway/>, document.getElementById('app'));

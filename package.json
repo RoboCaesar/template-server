@@ -4,7 +4,7 @@
   "description": "A simple server app to deliver web pages to a user. Babel is used as well.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node public/server.js",
     "build": "webpack"
   },
   "author": "Thomas Draxler",
@@ -17,6 +17,9 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "normalize-css": "^2.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "redux": "^4.0.1",
