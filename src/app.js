@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'normalize-css/normalize.css';
 import './styles/styles.scss'
 
-console.log("App is running...");
+console.log("The app is running...");
 
 const AppGateway = () => {
   return (
